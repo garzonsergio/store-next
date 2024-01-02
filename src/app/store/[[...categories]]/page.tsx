@@ -5,10 +5,8 @@ interface CategoryProps {
   };
 }
 
-function Category(props: CategoryProps) {
+export default function Category(props: CategoryProps) {
   const { categories } = props.params;
-  console.log(props);
+  console.log(categories);
   return <div>Dynamic Route {categories}</div>;
 }
-
-export default Category;
