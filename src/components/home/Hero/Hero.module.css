@@ -1,0 +1,13 @@
+.Hero {
+  margin: 10rem;
+}
+
+.Hero > h2 {
+  color: salmon;
+  text-align: center;
+}
+
+.Hero > h3 {
+  color: darkmagenta;
+  text-align: center;
+}
