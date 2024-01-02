@@ -1,9 +1,9 @@
-import styles from "./page.module.css";
+import { Description } from "app/components/home/Description";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello Everybody</h1>
+      <Description />
     </main>
   );
 }
