@@ -29,7 +29,13 @@
       color: $text-color
 
   &__button
-    border: 10px solid teal
-
+    background: transparent
+    border: none
+    cursor: pointer
+    &--border
+      img
+        border: 3px solid $main-contrast
+        box-sizing: border-box
   &__buttonActived
     border: 10px solid salmon
+    background: transparent
