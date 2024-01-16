@@ -12,7 +12,7 @@ export default function Error({ error, reset }: ErrorProps) {
     console.log(error);
   }, []);
   return (
-    <div style={{ padding: "1rem" }}>
+    <div style={{ padding: "10rem" }}>
       <h1>😞</h1>
       <p>Ha ocurrido un error</p>
       <button onClick={reset}>Intentar de nuevo</button>
